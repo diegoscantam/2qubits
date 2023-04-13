@@ -1,7 +1,7 @@
 # 2qubits
 
 ![License](https://img.shields.io/github/license/diegoscantam/2qubits)
-![Language](https://img.shields.io/badge/language-c%2B%2B-blue)
+![Language](https://img.shields.io/badge/language-Python-blue)
 ![Size](https://img.shields.io/github/repo-size/diegoscantam/2qubits)
 
 Implementation of a Python simulation of a quantum system of two qubits.
