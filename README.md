@@ -6,6 +6,8 @@
 
 Implementation of a Python simulation of a quantum system of two qubits.
 
+A variational estimate of the ground state energy of the deuteron is simulated on a Qiskit quantum circuit.
+
 ## License
 
 The code here presented is released under version 3 of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
