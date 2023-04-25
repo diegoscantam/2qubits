@@ -1,7 +1,7 @@
 # 2qubits
 
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![License](https://img.shields.io/github/license/diegoscantam/2qubits)
-![Language](https://img.shields.io/badge/language-Python-blue)
 ![Size](https://img.shields.io/github/repo-size/diegoscantam/2qubits)
 
 Implementation of a Python simulation of a quantum system of two qubits.
