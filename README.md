@@ -15,9 +15,11 @@ The present work is done in collaboration with [TIFPA (Trento Institute for Fund
 The deuteron is the bound state of a proton a neutron. In order to estimate the binding energy of the system, there are two main approaches one could follow involving a simulation on a quantum computer.
 
 The first being the one mapping the creation and destruction operators of the deuteron into combinations of Pauli gates. The ladder operators $a_n^\dagger$ and $a_n$ create and annihilate a deuteron in the harmonic oscillator state $|n \rangle$. The Hamiltonian is of the form
+
 $$
 H_N = \sum_{n,n'=0}^{N-1} c_{n'n} \,a_{n'}^\dagger a_n.
 $$
+
 Thanks to the Jordan-Wigner transformation, the Hamiltonian is expressed in terms of Pauli matrices, allowing us to map it into a quantum circuit with $N$ qubits. By calculating the variational ground state energies for $H_1$ and $H_2$, one can extrapolate the infinite-basis binding energy using the harmonic oscillator variant of Lüscher formula.
 
 ## License
