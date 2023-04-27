@@ -12,7 +12,7 @@ Implementation of a Python simulation of a quantum system of a few qubits. A var
 The present work is done in collaboration with [TIFPA (Trento Institute for Fundamental Physics and Applications)](https://www.tifpa.infn.it/) research centre as part of a quantum computing internship.
 
 ## Deuteron: the deuterium nucleus
-The deuteron is the bound state of a proton a neutron. In order to estimate the binding energy of the system, there are two main approaches one could follow involving a simulation on a quantum computer.
+The deuteron is the bound state of a proton and a neutron. In order to estimate the binding energy of the system, there are two main approaches one could follow involving a simulation on a quantum computer.
 
 The first being the one mapping the creation and destruction operators of the deuteron into combinations of Pauli gates. The ladder operators $a_n^\dagger$ and $a_n$ create and annihilate a deuteron in the harmonic oscillator state $|n \rangle$. The Hamiltonian is of the form
 
