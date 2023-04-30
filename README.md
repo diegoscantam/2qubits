@@ -1,5 +1,6 @@
-img align="right" width=20% src="logo.gif" />
+img align="right" width=20git % src="logo.gif" />
 
+[comment]: <![](./title.svg)>
 # 2qubits
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
