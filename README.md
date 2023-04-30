@@ -1,4 +1,4 @@
-img align="right" width=20git % src="logo.gif" />
+<img align="right" width=15% src="logo.gif" />
 
 [comment]: <![](./title.svg)>
 # 2qubits
