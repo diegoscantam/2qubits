@@ -10,13 +10,14 @@
 :warning: This repository is a work in progress in constant development! :hammer_and_wrench:
 
 ## About
-Implementation of a Python simulation of a quantum system of a few qubits. A variational estimate of the ground state energy of the deuteron is simulated on a Qiskit quantum circuit. This is done in two different ways, one being the representation of each quantum harmonic oscillator state the nucleus can occupy as a qubit, the other being the relative mixing between singlet and triplet spin states of the system mapped into a two qubits circuit. Secondly, some quantum correction algorithms are implemented.
+Implementation of a Python simulation of a quantum system of a few qubits. A variational estimate of the ground state energy of the deuteron is simulated on a Qiskit quantum circuit. This is done in two different ways, one being the representation of each quantum harmonic oscillator state the nucleus can occupy as a qubit, the other being the relative mixing between singlet and triplet spin and isospin states of the system mapped into a quantum circuit. Secondly, some quantum correction algorithms are implemented.
 
 The present work is done in collaboration with [TIFPA (Trento Institute for Fundamental Physics and Applications)](https://www.tifpa.infn.it/) research centre and the [University of Trento](https://www.unitn.it/en) as part of a quantum computing internship.
 
 ## Deuteron: the deuterium nucleus
 The deuteron is the bound state of a proton and a neutron. In order to estimate the binding energy of the system, there are two main approaches one could follow involving a simulation on a quantum computer.
 
+### EFT Hamiltonian
 The first being the one mapping the creation and destruction operators of the deuteron into combinations of Pauli gates. The ladder operators $a_n^\dagger$ and $a_n$ create and annihilate a deuteron in the harmonic oscillator state $|n \rangle$. The Hamiltonian (from pionless effective field theory) is of the form
 
 $$
