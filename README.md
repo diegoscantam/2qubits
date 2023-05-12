@@ -28,20 +28,18 @@ Thanks to the Jordan-Wigner transformation, the Hamiltonian is expressed in term
 
 ## Results
 Here you can find some results produced by the present code:
-This is going to be the result:
+
 <p align="center">
 <button  style="border: transparent; background-color: transparent;">
-    <img align="left" width=33% src="plots/E_2.png"> 
+    <img align="down" width=33% src="plots/E_2.png"> 
 </button>
 <button  style="border: transparent; background-color: transparent;">
-    <img align="left" width=33% src="plots/E_3.png"> 
+    <img align="down" width=33% src="plots/E_3.png"> 
 </button>
 <button style="border: transparent; background-color: transparent;">
-    <img align="left" width=33% src="plots/fit_luscher.png"> 
+    <img align="down" width=33% src="plots/fit_luscher.png"> 
 </button>
 </p>
-
-&emsp; &emsp; &emsp; &emsp; &emsp; 
 
 ## License
 
