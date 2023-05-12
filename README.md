@@ -31,13 +31,13 @@ Here you can find some results produced by the present code:
 
 <p align="center">
 <button  style="border: transparent; background-color: transparent;">
-    <img align="down" width=33% src="plots/E_2.png"> 
+    <img align="left" width=25% src="plots/E_2.png"> 
 </button>
 <button  style="border: transparent; background-color: transparent;">
-    <img align="down" width=33% src="plots/E_3.png"> 
+    <img align="left" width=33% src="plots/E_3.png"> 
 </button>
 <button style="border: transparent; background-color: transparent;">
-    <img align="down" width=33% src="plots/fit_luscher.png"> 
+    <img align="left" width=33% src="plots/fit_luscher.png"> 
 </button>
 </p>
 
