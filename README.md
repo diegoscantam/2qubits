@@ -26,6 +26,23 @@ $$
 
 Thanks to the Jordan-Wigner transformation, the Hamiltonian is expressed in terms of Pauli matrices, allowing us to map it into a quantum circuit with $N$ qubits. By calculating the variational ground state energies for $H_1$, $H_2$ and $H_3$, one can extrapolate the infinite-basis binding energy using the harmonic oscillator variant of Lüscher formula.
 
+## Results
+Here you can find some results produced by the present code:
+This is going to be the result:
+<p align="center">
+<button  style="border: transparent; background-color: transparent;">
+    <img align="left" width=33% src="plots/E_2.png"> 
+</button>
+<button  style="border: transparent; background-color: transparent;">
+    <img align="left" width=33% src="plots/E_3.png"> 
+</button>
+<button style="border: transparent; background-color: transparent;">
+    <img align="left" width=33% src="plots/fit_luscher.png"> 
+</button>
+</p>
+
+&emsp; &emsp; &emsp; &emsp; &emsp; 
+
 ## License
 
 The code here presented is released under version 3 of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
