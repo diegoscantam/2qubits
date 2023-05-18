@@ -35,6 +35,8 @@ Here you can find an example of some results obtained with the code in `deuteron
     <img width=33% src="plots/E_3.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
     <img width=33% src="plots/fit_luscher.png"> 
+&nbsp; &nbsp; &nbsp; &nbsp;
+    <img width=33% src="plots/mixing.png"> 
 </p>
 
 ## License
