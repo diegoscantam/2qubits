@@ -26,6 +26,19 @@ $$
 
 Thanks to the Jordan-Wigner transformation, the Hamiltonian is expressed in terms of Pauli matrices, allowing us to map it into a quantum circuit with $N$ qubits. By calculating the variational ground state energies for $H_1$, $H_2$ and $H_3$, one can extrapolate the infinite-basis binding energy using the harmonic oscillator variant of Lüscher formula.
 
+### Relative mixing between $^3 S_1$ and $^3 D_1$ partial waves
+The second being the study of the relative mixing between the only two allowed states for the ground state deuteron: a isospin singlet, spin triplet state with $L=0$ ($^3 S_1$) and $L=2$ ($^3 D_1$). One can consider the two-level system built from the $S$ wave $\ket{\phi_S}$ and $D$ wave $\ket{\phi_D}$ such that the Hamiltonian is of the form:
+
+$$
+H = \left(\begin{matrix} \braket{\phi_S|H|\phi_S} & \braket{\phi_S|H|\phi_D} \\ \braket{\phi_D|H|\phi_S} & \braket{\phi_D|H|\phi_D}\end{matrix}\right).
+$$
+
+By introducing the relative mixing parameter $\xi$, one can calculate the optimal mixing between the two partial waves in order to obtain the lowest energy:
+
+$$
+\ket{\psi} = \sqrt{\xi} \, \ket{\phi_S} + \sqrt{1-\xi} \, \ket{\phi_D}.
+$$
+
 ## Results
 Here you can find an example of some results obtained with the code in `deuteron.ipynb`:
 
