@@ -21,7 +21,7 @@ The deuteron is the bound state of a proton and a neutron. In order to estimate 
 The first being the one mapping the creation and destruction operators of the deuteron into combinations of Pauli gates. The ladder operators $a_n^\dagger$ and $a_n$ create and annihilate a deuteron in the harmonic oscillator state $|n \rangle$. The Hamiltonian (from pionless effective field theory) is of the form
 
 $$
-H_N = \sum_{n,n'=0}^{N-1} \langle n' | T+V | n \rangle a_{n'}^\dagger a_n.
+H_N = \sum_{n,n'=0}^{N-1} \langle n' | T+V | n \rangle \\,a_{n'}^\dagger a_n.
 $$
 
 Thanks to the Jordan-Wigner transformation, the Hamiltonian is expressed in terms of Pauli matrices, allowing us to map it into a quantum circuit with $N$ qubits. By calculating the variational ground state energies for $H_1$, $H_2$ and $H_3$, one can extrapolate the infinite-basis binding energy using the harmonic oscillator variant of Lüscher formula.
@@ -30,13 +30,15 @@ Thanks to the Jordan-Wigner transformation, the Hamiltonian is expressed in term
 The second being the study of the relative mixing between the only two allowed states for the ground state deuteron: a isospin singlet, spin triplet state with $L=0$ ($^3 S_1$) and $L=2$ ($^3 D_1$). One can consider the two-level system built from the $S$ wave $\ket{\phi_S}$ and $D$ wave $\ket{\phi_D}$ such that the Hamiltonian is of the form:
 
 $$
-H = \left(\begin{matrix} \braket{\phi_S|H|\phi_S} & \braket{\phi_S|H|\phi_D} \\ \braket{\phi_D|H|\phi_S} & \braket{\phi_D|H|\phi_D}\end{matrix}\right).
+H = \left(\begin{matrix} 
+    \braket{\phi_S|H|\phi_S} & \braket{\phi_S|H|\phi_D} \\ 
+    \braket{\phi_D|H|\phi_S} & \braket{\phi_D|H|\phi_D}\end{matrix}\right).
 $$
 
 By introducing the relative mixing parameter $\xi$, one can calculate the optimal mixing between the two partial waves in order to obtain the lowest energy:
 
 $$
-\ket{\psi} = \sqrt{\xi} \, \ket{\phi_S} + \sqrt{1-\xi} \, \ket{\phi_D}.
+\ket{\psi} = \sqrt{\xi} \\, \ket{\phi_S} + \sqrt{1-\xi} \\, \ket{\phi_D}.
 $$
 
 ## Results
