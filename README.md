@@ -35,10 +35,10 @@ H = \left(\begin{matrix}
     \braket{\phi_D|H|\phi_S} & \braket{\phi_D|H|\phi_D}\end{matrix}\right).
 $$
 
-By introducing the relative mixing parameter $\xi$, one can calculate the optimal mixing between the two partial waves in order to obtain the lowest energy:
+By introducing a relative mixing angle $\xi$, one can calculate the optimal mixing between the two partial waves in order to obtain the lowest energy:
 
 $$
-\ket{\psi} = \sqrt{\xi} \\, \ket{\phi_S} + \sqrt{1-\xi} \\, \ket{\phi_D}.
+\ket{\psi(\xi)} = \sin\left(\frac{\xi}{2}\right)\ket{\phi_S} + \cos\left(\frac{\xi}{2}\right) \ket{\phi_D}.
 $$
 
 ## Results
@@ -54,6 +54,13 @@ Here you can find an example of some results obtained with the code in `deuteron
     <img width=33% src="plots/mixing.png"> 
 </p>
 
-## License
+## References
+The EFT approach is mostly taken from the work presented [here](https://arxiv.org/abs/1801.03897).
+The relative mixing Hamiltonian can be found [here](https://arxiv.org/abs/1905.08383) instead.
 
+## Acknowledgements
+- [A. Roggero](https://scholar.google.it/citations?user=_gXM9vEAAAAJ&hl=it) (professor and internship tutor)
+- [Diego Scantamburlo](https://github.com/diegoscantam)
+
+## License
 The code here presented is released under version 3 of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
