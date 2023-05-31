@@ -45,13 +45,13 @@ $$
 Here you can find an example of some results obtained with the code in `deuteron.ipynb`:
 
 <p align="center">
-    <img width=33% src="plots/E_2.png"> 
+    <img width=33% src="demo_plots/E_2.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=33% src="plots/E_3.png"> 
+    <img width=33% src="demo_plots/E_3.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=33% src="plots/fit_luscher.png"> 
+    <img width=33% src="demo_plots/fit_luscher.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=33% src="plots/mixing.png"> 
+    <img width=66% src="demo_plots/mixing_comparison.png"> 
 </p>
 
 ## References
