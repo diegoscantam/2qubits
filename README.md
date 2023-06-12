@@ -51,7 +51,9 @@ Here you can find an example of some results obtained with the code in `deuteron
 &nbsp; &nbsp; &nbsp; &nbsp;
     <img width=33% src="demo_plots/fit_luscher.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=66% src="demo_plots/mixing_comparison.png"> 
+    <img width=45% src="demo_plots/mixing_comparison.png"> 
+&nbsp; &nbsp; &nbsp; &nbsp;
+    <img width=45% src="demo_plots/E_2_comparison.png"> 
 </p>
 
 ## References
