@@ -8,7 +8,7 @@
 ![Size](https://img.shields.io/github/repo-size/diegoscantam/2qubits)
 
 ## About
-Implementation of a Python simulation of a quantum system of a few qubits. A variational estimate of the ground state energy of the deuteron is simulated on a Qiskit quantum circuit. This is done in two different ways, one being the representation of each quantum harmonic oscillator state the nucleus can occupy as a qubit, the other being the relative mixing between singlet and triplet spin and isospin states of the system mapped into a quantum circuit. Secondly, some read-out error mitigation algorithms are implemented.
+Implementation of a Python simulation of a quantum system of a few qubits. A variational estimate of the ground state energy of the deuteron is simulated on a Qiskit quantum circuit. This is done in two different ways, one being the representation of each quantum harmonic oscillator state the nucleus can occupy as a qubit, the other being the relative mixing between different orbital angular momentum states of the system mapped into a quantum circuit. Secondly, some read-out error mitigation algorithms are implemented.
 
 The present work is done in collaboration with [TIFPA (Trento Institute for Fundamental Physics and Applications)](https://www.tifpa.infn.it/) research centre and the [University of Trento](https://www.unitn.it/en) as part of a quantum computing internship.
 
@@ -46,15 +46,15 @@ The code is a simple Jupyter notebook running Python. All you need to do is to m
 Here you can find an example of some results obtained with the code in `deuteron.ipynb`:
 
 <p align="center">
-    <img width=20% src="demo_plots/E_2.png"> 
+    <img width=35% src="demo_plots/E_2.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=20% src="demo_plots/E_3.png"> 
+    <img width=35% src="demo_plots/E_3.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=20% src="demo_plots/fit_luscher.png"> 
+    <img width=35% src="demo_plots/fit_luscher.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=20% src="demo_plots/gs_pw.png"> 
+    <img width=35% src="demo_plots/gs_pw.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=30% src="demo_plots/mixing_comparison.png"> 
+    <img width=45% src="demo_plots/mixing_comparison.png"> 
 </p>
 
 ## References
