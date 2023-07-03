@@ -7,10 +7,8 @@
 ![License](https://img.shields.io/github/license/diegoscantam/2qubits)
 ![Size](https://img.shields.io/github/repo-size/diegoscantam/2qubits)
 
-:warning: This repository is a work in progress in constant development! :hammer_and_wrench:
-
 ## About
-Implementation of a Python simulation of a quantum system of a few qubits. A variational estimate of the ground state energy of the deuteron is simulated on a Qiskit quantum circuit. This is done in two different ways, one being the representation of each quantum harmonic oscillator state the nucleus can occupy as a qubit, the other being the relative mixing between singlet and triplet spin and isospin states of the system mapped into a quantum circuit. Secondly, some quantum correction algorithms are implemented.
+Implementation of a Python simulation of a quantum system of a few qubits. A variational estimate of the ground state energy of the deuteron is simulated on a Qiskit quantum circuit. This is done in two different ways, one being the representation of each quantum harmonic oscillator state the nucleus can occupy as a qubit, the other being the relative mixing between singlet and triplet spin and isospin states of the system mapped into a quantum circuit. Secondly, some read-out error mitigation algorithms are implemented.
 
 The present work is done in collaboration with [TIFPA (Trento Institute for Fundamental Physics and Applications)](https://www.tifpa.infn.it/) research centre and the [University of Trento](https://www.unitn.it/en) as part of a quantum computing internship.
 
@@ -41,24 +39,28 @@ $$
 \ket{\psi(\xi)} = \sin\left(\frac{\xi}{2}\right)\ket{\phi_S} + \cos\left(\frac{\xi}{2}\right) \ket{\phi_D}.
 $$
 
+## How to run
+The code is a simple Jupyter notebook running Python. All you need to do is to make sure you installed the Python and Qiskit libraries contained in the first block of code of the file `deuteron.ipynb`. Make sure you run the blocks in order, since in some cases comparisons between previous and new results are performed.
+
 ## Results
 Here you can find an example of some results obtained with the code in `deuteron.ipynb`:
 
 <p align="center">
-    <img width=33% src="demo_plots/E_2.png"> 
+    <img width=20% src="demo_plots/E_2.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=33% src="demo_plots/E_3.png"> 
+    <img width=20% src="demo_plots/E_3.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=33% src="demo_plots/fit_luscher.png"> 
+    <img width=20% src="demo_plots/fit_luscher.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=45% src="demo_plots/mixing_comparison.png"> 
+    <img width=20% src="demo_plots/gs_pw.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=45% src="demo_plots/E_2_comparison.png"> 
+    <img width=30% src="demo_plots/mixing_comparison.png"> 
 </p>
 
 ## References
 The EFT approach is mostly taken from the work presented [here](https://arxiv.org/abs/1801.03897).
 The relative mixing Hamiltonian can be found [here](https://arxiv.org/abs/1905.08383) instead.
+Read-out error correction procedures and rigorous confidence intervals estimates are explained in the appendices [here](https://arxiv.org/abs/2102.12556) and [here](https://arxiv.org/abs/2009.13485).
 
 ## Acknowledgements
 - [A. Roggero](https://scholar.google.it/citations?user=_gXM9vEAAAAJ&hl=it) (professor and internship tutor)
