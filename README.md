@@ -54,7 +54,7 @@ Here you can find an example of some results obtained with the code in `deuteron
 &nbsp; &nbsp; &nbsp; &nbsp;
     <img width=35% src="demo_plots/gs_pw.png"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-    <img width=45% src="demo_plots/mixing_comparison.png"> 
+    <img width=60% src="demo_plots/mixing_comparison.png"> 
 </p>
 
 ## References
